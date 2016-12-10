@@ -4,14 +4,15 @@
   "description": "ld37 entry",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "test.js",
+    "watch": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jomoho/ld37.git"
   },
   "author": "jomoho",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jomoho/ld37/issues"
   },
