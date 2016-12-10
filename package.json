@@ -1,0 +1,25 @@
+{
+  "name": "ld37",
+  "version": "1.0.0",
+  "description": "ld37 entry",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomoho/ld37.git"
+  },
+  "author": "jomoho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jomoho/ld37/issues"
+  },
+  "homepage": "https://github.com/jomoho/ld37#readme",
+  "dependencies": {
+    "bootbot": "^1.0.7"
+  },
+  "devDependencies": {
+    "fb-local-chat-bot": "^0.1.2"
+  }
+}
