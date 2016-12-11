@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test.js",
-    "watch": "nodemon index.js"
+    "watch": "nodemon --stack-size=32000 index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/jomoho/ld37#readme",
   "dependencies": {
-    "bootbot": "^1.0.7"
+    "bootbot": "^1.0.7",
+    "random-seed": "^0.3.0"
   },
   "devDependencies": {
+    "eslint": "^3.12.0",
     "fb-local-chat-bot": "^0.1.2"
   }
 }
